@@ -286,7 +286,7 @@ video {
 		left:0;
 	}
 	.team{
-		background-image: url(../images/team.jpg);
+		background-image: url(../images/header-image2.jpg);
 		background-size: 100% 100%;
 		background-attachment: fixed;
 		height: 500px;
@@ -294,8 +294,9 @@ video {
 
 	.properties{
 		float: left;
-		height: 380px;
-		background: #395662;
+		position: relative;
+		height: 421px;
+		background: #fff;
 		color: #fff;
 		text-align: center;
 	}
@@ -305,15 +306,36 @@ video {
 		width: 80%;
 		height: 380px;
 		margin: 0 auto;
+		position: relative;
+	}
+
+	.prop-con{
+		width: 80%;
+		height: 80%;
+		position: absolute;
+		top: 50%;
+		left: 10%;
+		transform: translate(0,-51%);
+	}
+
+	.prop-con h1{
+		color: #000;
+		margin: 0;
 	}
 
 	.prop1{
 		float: left;
-		height: 35%;
-		margin: 1%;
+		height: 48%;
+		margin: 0.5% 1% 0.5% 1%;
 		width: 48%!important;
 		position: relative;
+		/*border-radius: 5%;*/
+		box-shadow: 5px 5px 5px #000;
 	}
+
+	/*.prop1:hover{
+		box-shadow: 5px 5px 5px #000;
+	}*/
 
 	.prop1 h3{
 		position: absolute;
@@ -325,23 +347,31 @@ video {
 	}
 
 	.flats{
-		background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/flats.jpg);
+		background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url(../images/flats.jpg);
 		background-size: 100% 100%;
+		border-top-left-radius: 25%;
+		border-bottom-right-radius: 25%;
 	}
 
 	.kothi{
-		background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/kothi.jpg);
+		background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url(../images/kothi.jpg);
 		background-size: 100% 100%;
+		border-top-right-radius: 25%;
+		border-bottom-left-radius: 25%;
 	}
 
 	.duplex{
-		background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/duplex.jpg);
+		background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url(../images/duplex.jpg);
 		background-size: 100% 100%;
+		border-top-right-radius: 25%;
+		border-bottom-left-radius: 25%;
 	}
 
 	.commercial{
-		background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/commercial.jpg);
+		background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url(../images/commercial.jpg);
 		background-size: 100% 100%;
+		border-top-left-radius: 25%;
+		border-bottom-right-radius: 25%;
 	}
 
 	.about{
