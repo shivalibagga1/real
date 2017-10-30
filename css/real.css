@@ -374,12 +374,17 @@ video {
 		border-bottom-right-radius: 25%;
 	}
 
+/*=======================================*/
+/*Our Listing styling*/
+/*=======================================*/
+
 	.listings{
 		float: left;
-		height: 380px;
+		height: 1000px;
 		position: relative;
 		/*display: block;*/
 		color: #fff;
+		letter-spacing: 1.5px;
 	}
 
 	.listings h1{
@@ -388,25 +393,47 @@ video {
 		padding: 0.5%;
 		color: #fff;
 		background: #37738c;
-		letter-spacing: 1.5px;
+		/*letter-spacing: 1.5px;*/
 		margin: 0;
 		/*position: absolute;
 		top:0;
 		left:0;*/
 	}
 
-	.listing1{
+	.listing{
 		float: left;
 		position: relative;
-		height: 100%;
-		background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/mohali/house1.jpg);
+		height: 31.66%;
 		background-size: 100% 100%;
 	}
 
-	.listing2{
+	.listing-img1{
+		background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/mohali/house1.jpg);
+	}
+
+	.listing-img2{
+		background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/panchkula/house1.jpg);
+	}
+
+	.listing-img3{
+		background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/zirakpur/house1.jpeg);
+	}
+
+	.more-list{
+		float: left;
+		background: #395662;
+	}
+
+	.more-list p{
+		color: #fff;
+		float: right;
+	}
+
+
+	/*.listing2{
 		float: left;
 		position: relative;
-		height: 100%;
+		height: 41.66%;
 		background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/panchkula/house1.jpg);
 		background-size: 100% 100%;
 	}
@@ -414,10 +441,10 @@ video {
 	.listing3{
 		float: left;
 		position: relative;
-		height: 100%;
+		height: 41.66%;
 		background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/zirakpur/house1.jpeg);
 		background-size: 100% 100%;
-	}
+	}*/
 
 	.list{
 		height: 60%;
@@ -460,31 +487,36 @@ video {
 		float: left;
 		background: #37738c;
 		height: 255px;
-		padding: 5%;
+		padding: 7%;
 		letter-spacing: 1.5px;
 	}
 
 	.about-us{
-		position: relative;
-		top:-110px;
+		/*position: relative;
+		top:-110px;*/
 	}
 	.about-img{
 		float: left;
-		background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/about.jpg);
+		background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/header-image2.jpg);
 		background-size: 100% 100%;
-		height: 138px;
+		height: 300px;
 		color: #fff;
 	    text-align: center;
-		padding: 5%;
+		padding: 10% 0;
 	}
 
 	.about-info{
 		float: left;
 		color: #fff;
 		background: #53afd6;
-		height: 138px;
+		height: 300px;
 		text-align: center;
-		padding: 5%;
+		padding: 10%;
+	}
+
+	.about-info img{
+		width: 3%;
+		margin: 0 0.5%;
 	}
 
 /*=======================================*/
@@ -923,7 +955,7 @@ footer .ui.menu .item:before{
 	}
 
 	.about{
-		height: 100px;
+		height: 500px;
 	}
 
 	.func1{
