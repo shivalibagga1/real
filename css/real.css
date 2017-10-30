@@ -374,6 +374,88 @@ video {
 		border-bottom-right-radius: 25%;
 	}
 
+	.listings{
+		float: left;
+		height: 380px;
+		position: relative;
+		/*display: block;*/
+		color: #fff;
+	}
+
+	.listings h1{
+		/*border: 3px solid #000;*/
+		/*text-align: center;*/
+		padding: 0.5%;
+		color: #fff;
+		background: #37738c;
+		letter-spacing: 1.5px;
+		margin: 0;
+		/*position: absolute;
+		top:0;
+		left:0;*/
+	}
+
+	.listing1{
+		float: left;
+		position: relative;
+		height: 100%;
+		background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/mohali/house1.jpg);
+		background-size: 100% 100%;
+	}
+
+	.listing2{
+		float: left;
+		position: relative;
+		height: 100%;
+		background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/panchkula/house1.jpg);
+		background-size: 100% 100%;
+	}
+
+	.listing3{
+		float: left;
+		position: relative;
+		height: 100%;
+		background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/zirakpur/house1.jpeg);
+		background-size: 100% 100%;
+	}
+
+	.list{
+		height: 60%;
+		margin: 0 auto;
+		position: absolute;
+		top: 20%;
+		left: 8.3%;
+	}
+
+	.list-img1{
+		float: left;
+		height: 100%;
+		background-image: url(../images/mohali/house1.jpg);
+		background-size: 100% 100%;
+	}
+
+	.list-img2{
+		float: left;
+		height: 100%;
+		background-image: url(../images/panchkula/house1.jpg);
+		background-size: 100% 100%;
+	}
+
+	.list-img3{
+		float: left;
+		height: 100%;
+		background-image: url(../images/zirakpur/house1.jpeg);
+		background-size: 100% 100%;
+	}
+
+	.list-info{
+		float: left;
+	}
+
+	.list-info h3{
+		padding-left: 1%;
+	}
+
 	.about{
 		float: left;
 		background: #37738c;
