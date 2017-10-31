@@ -32,9 +32,28 @@ $(window).scroll(function () {
         var imagePos = $(this).offset().top;
 
         if(imagePos <= bottomOfWindow && imagePos >= topOfWindow){
-            // $(this).addClass('visible').delay();
-            var $this = $(this);
-            setTimeout(function () { $this.addClass("visible"); }, index * 700);
+            $(this).addClass('show').delay();
+            // var $this = $(this);
+            // setTimeout(function () { $this.addClass("show"); }, index * 700);
+        }else{
+            // $(this).removeClass('visible');
+        }
+    });
+
+    
+});
+
+$(window).scroll(function () {
+    var topOfWindow = $(window).scrollTop(),
+        bottomOfWindow = topOfWindow + $(window).height();
+
+    $('.about3').each(function (index) {
+        var imagePos = $(this).offset().top;
+
+        if(imagePos <= bottomOfWindow && imagePos >= topOfWindow){
+            $(this).addClass('show1').delay();
+            // var $this = $(this);
+            // setTimeout(function () { $this.addClass("show"); }, index * 700);
         }else{
             // $(this).removeClass('visible');
         }
