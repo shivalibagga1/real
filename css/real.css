@@ -398,7 +398,7 @@ video {
 
 	.listings h1{
 		/*border: 3px solid #000;*/
-		/*text-align: center;*/
+		text-align: center;
 		padding: 0.5%;
 		color: #fff;
 		background: #37738c;
@@ -407,12 +407,13 @@ video {
 		/*position: absolute;
 		top:0;
 		left:0;*/
+		font-size: 21px;
 	}
 
 	.listing{
 		float: left;
 		position: relative;
-		height: 31.66%;
+		height: 33.66%;
 		background-size: 100% 100%;
 	}
 
@@ -456,11 +457,12 @@ video {
 	}*/
 
 	.list{
-		height: 60%;
-		margin: 0 auto;
+		height: 70%;
+		/*margin: 0 auto;*/
 		position: absolute;
-		top: 20%;
-		left: 8.3%;
+		top: 14%;
+		left: 0;
+		padding: 5%;
 	}
 
 	.list-img1{
@@ -490,6 +492,7 @@ video {
 
 	.list-info h3{
 		padding-left: 1%;
+		font-size: 14px;
 	}
 
 	.about{
@@ -508,14 +511,16 @@ video {
 	}
 	.about-img{
 		float: left;
+		width: 41.66%!important;
 		background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/header-image2.jpg);
 		background-size: 100% 100%;
-		height: 300px;
+		height: 70%;
 		color: #fff;
 	    text-align: center;
-		padding: 11% 0;
+		/*padding: 11% 0;*/
 		position: absolute;
 		left: -42%;
+		top: 15%;
 		/*left: -338px;*/
 		/*-webkit-animation: mymove 0.5s forwards;
     	-webkit-animation-delay: 3s;
@@ -533,15 +538,24 @@ video {
     	100% { opacity: 1;left: 8.5%; }
 	}
 
+	.about-img h2{
+		height: 10%;
+    	font-size: 17px;
+    	position: relative;
+    	top: 45%;
+	}
+
 	.about-info{
 		float: left;
+		width: 41.66%!important;
 		color: #fff;
 		background: #53afd6;
-		height: 300px;
+		height: 70%;
 		text-align: center;
-		padding: 9%;
+		padding: 6%;
 		position: absolute;
 		right: -75%;
+		top:15%;
 		/*left: 1350px;*/
 		/*-webkit-animation: mymove1 0.5s forwards;
     	-webkit-animation-delay: 3s;
@@ -565,7 +579,11 @@ video {
 
 	.about-info img{
 		width: 3%;
-		margin: 0 0.5% 1.8% 0.5%;
+		margin: 0 2.5% 8.8% 0.5%;
+	}
+
+	.about-info h3{
+		font-size: 14px;
 	}
 
 	.show1{
@@ -1051,6 +1069,47 @@ footer .ui.menu .item:before{
 
 	.header-btn{
 		width: 15%;
+	}
+
+	.listings h1{
+		font-size: 28px;
+	}
+
+	.list{
+		height: 60%;
+		left: 8.3%;
+		top: 20%;
+		padding: 0;
+	}
+
+	.list-info h3{
+		font-size: 18px;
+	}
+
+	.about-img{
+		/*height: 300px;*/
+		padding: 11% 0;
+	}
+
+	.about-img h2{
+		height: 20%;
+    	font-size: 24px;
+    	position: relative;
+    	top: 40%;
+	}
+
+	.about-info{
+		/*height: 300px;*/
+		padding: 9%;
+	}
+
+	.about-info h3{
+		font-size: 18px;
+	}
+
+	.about-info img{
+		width: 3%;
+		margin: 0 0.5% 1.8% 0.5%;
 	}
 
 	.team{
