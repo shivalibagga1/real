@@ -14,7 +14,7 @@ header{
 	width: 100%;
 	letter-spacing: 1.5px;
 
-	height: 50%;
+	height: 57%;
 }
 
 video { 
@@ -34,12 +34,12 @@ video {
 
 #hr-video{
 	width: 100%;
-	height: 321px;
+	height: 365px;
 }
 
 .header-bg{
 	width: 100%;
-	height: 321px;
+	height: 365px;
 	background-color: rgba(0,0,0,0.5);
 	position: absolute;
     top: 0;
@@ -174,7 +174,7 @@ video {
 	}
 
 	.heading{
-		width: 70%;
+		width: 50%;
 		text-align: center;
 		font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
 		font-weight: 300;
@@ -182,7 +182,7 @@ video {
 		position:absolute;
 		top: 50%;
 		left: 2%;
-		transform: translate(0,-51%);
+		/*transform: translate(0,-51%);*/
 		color: #fff;
 		margin: 0;
 	}
@@ -236,7 +236,7 @@ video {
 	.house-form{
 		width: 41%;
 		position: absolute;
-		top: 70%;
+		top: 67%;
 		right: 5%;
 		z-index:1;
 		transform: translate(0,-51%);
@@ -251,6 +251,10 @@ video {
 
 	#form-field{
 		margin-bottom: 1%;
+	}
+
+	#form-field1{
+		margin-bottom: 5%;
 	}
 
 	#select-btn{
@@ -339,7 +343,7 @@ video {
 		width: 48%!important;
 		position: relative;
 		/*border-radius: 5%;*/
-		box-shadow: 5px 5px 5px #000;
+		box-shadow: 5px 5px 5px #889aa1;
 	}
 
 	/*.prop1:hover{
@@ -413,7 +417,8 @@ video {
 	.listing{
 		float: left;
 		position: relative;
-		height: 33.66%;
+		/*height: 33.66%;*/
+		height: 32.35%;
 		background-size: 100% 100%;
 	}
 
@@ -525,7 +530,7 @@ video {
 		/*-webkit-animation: mymove 0.5s forwards;
     	-webkit-animation-delay: 3s;
     	animation: mymove 0.5s forwards;
-    	/*animation-delay: 3s;*/*/
+    	/*animation-delay: 3s;*/
 	}
 
 	@-webkit-keyframes mymove {
@@ -552,7 +557,7 @@ video {
 		background: #53afd6;
 		height: 70%;
 		text-align: center;
-		padding: 6%;
+		padding: 9%;
 		position: absolute;
 		right: -75%;
 		top:15%;
@@ -578,8 +583,8 @@ video {
 	}
 
 	.about-info img{
-		width: 3%;
-		margin: 0 2.5% 8.8% 0.5%;
+		width: 5%;
+		/*margin: 0 2.5% 8.8% 0.5%;*/
 	}
 
 	.about-info h3{
@@ -1039,6 +1044,10 @@ footer .ui.menu .item:before{
 		margin-bottom: 9%;
 	}
 
+	#form-field1{
+		margin-bottom: 9%;
+	}
+
 	#hr-video{
 		height: 730px;
 	}
@@ -1049,6 +1058,7 @@ footer .ui.menu .item:before{
 
 	.heading{
 		font-size: 46px;
+		width: 70%;
 	}
 
 	#btn{
@@ -1098,19 +1108,19 @@ footer .ui.menu .item:before{
     	top: 40%;
 	}
 
-	.about-info{
-		/*height: 300px;*/
+	/*.about-info{
+		height: 300px;
 		padding: 9%;
-	}
+	}*/
 
 	.about-info h3{
 		font-size: 18px;
 	}
 
-	.about-info img{
+	/*.about-info img{
 		width: 3%;
 		margin: 0 0.5% 1.8% 0.5%;
-	}
+	}*/
 
 	.team{
 		height: 600px;
