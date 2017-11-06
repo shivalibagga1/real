@@ -1242,4 +1242,37 @@ footer .ui.menu .item:before{
 }
 
 
+/*=======================================*/
+/*listing.html styling*/
+/*=======================================*/
 
+#sub-menu a:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	right: 0;
+	height: 0;
+	width: 0;
+	background: none;
+}
+
+.list-views{
+	background: #fff;
+}
+
+.list-views h3{
+	color: #000;
+}
+
+.list-view{
+	float: left;
+	height: 100%;
+}
+
+.list-view p{
+	color: #000;
+}
+
+.list-view img{
+	display: block;
+}

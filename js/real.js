@@ -4,7 +4,7 @@ $(document).ready(function(){
 		$('#nav a:not(:first)').toggle();
 	});
     
-	// $('.ui.dropdown').dropdown();
+	$('.ui.dropdown').dropdown();
 });
 
 $(window).scroll(function () {
@@ -110,4 +110,6 @@ $(window).scroll(function () {
 //     pauseButton.innerHTML = "Paused";
 //   }
 // })
+
+
 
