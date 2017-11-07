@@ -997,6 +997,89 @@ footer .ui.menu .item:before{
 		color: #5bc0eb;
 }
 
+
+
+
+
+
+
+
+/*=======================================*/
+/*listing.html styling*/
+/*=======================================*/
+
+#sub-menu a:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	right: 0;
+	height: 0;
+	width: 0;
+	background: none;
+}
+
+.list-views{
+	background: #fff;
+	/*height: 30%;
+	position: relative;*/
+}
+
+.list-views h3{
+	color: #000;
+}
+
+.list-view{
+	float: left;
+	height: 100%;
+	padding: 1%;
+	
+}
+
+.list-view p{
+	color: #000;
+	text-align: center;
+}
+
+.list-view img{
+	float: left;
+	/*display: block;*/
+}
+
+.list-view span{
+	color: #000;
+	text-align: left;
+	display: block;
+}
+
+.list-det{
+	background: #ecf9fe;
+	/*margin: 1%;*/
+	height: 70%;
+	position: absolute;
+	top: 14%;
+	left: 0;
+	padding: 5%;
+	z-index: 1;
+}
+
+.list-icons{
+	float: left;
+	margin-bottom: 0;
+	padding: 7%;
+	/*display: block;*/
+}
+
+.list-view-count{
+	margin-bottom: 0;
+	padding: 14%;
+}
+
+
+
+
+
+
+
 /*=================================================*/
 /*Media queries for screens widtrh more than 768px*/
 /*=================================================*/
@@ -1144,6 +1227,13 @@ footer .ui.menu .item:before{
 		font-size: 18px;
 	}
 
+	.list-det{
+		height: 80%;
+		left: 8.3%;
+		top: 6%;
+		padding: 0;
+	}
+
 	.about-img{
 		/*height: 300px;*/
 		padding: 11% 0;
@@ -1241,38 +1331,3 @@ footer .ui.menu .item:before{
   }
 }
 
-
-/*=======================================*/
-/*listing.html styling*/
-/*=======================================*/
-
-#sub-menu a:before{
-	position: absolute;
-	content: '';
-	top: 0;
-	right: 0;
-	height: 0;
-	width: 0;
-	background: none;
-}
-
-.list-views{
-	background: #fff;
-}
-
-.list-views h3{
-	color: #000;
-}
-
-.list-view{
-	float: left;
-	height: 100%;
-}
-
-.list-view p{
-	color: #000;
-}
-
-.list-view img{
-	display: block;
-}
