@@ -38,10 +38,10 @@
 			
 			<a class="item" id="navitem" data-tab="Home" href="javascript:void(0);">Home</a>
 		  	<a class="item" id="navitem" data-tab="About Us" href="javascript:void(0);">About Us</a>
-		  	<a class="item" id="navitem" data-tab="Property" href="javascript:void(0);">Property</a>
+		  	<!-- <a class="item" id="navitem" data-tab="Property" href="javascript:void(0);">Property</a> -->
 
-			 <div class="ui pointing dropdown link item">
-			    <span class="text">Property</span>
+			 <div class="ui pointing dropdown link item" id="drop">
+			    <span class="text" id="prop-tab">Property</span>
 			    <i class="dropdown icon"></i>
 			    <div class="menu" id="sub-menu">
 			      <div class="header">Categories</div>
@@ -150,11 +150,11 @@
 				<span>Kharar,Mohali</span>
 				<span>2 bedroom Indepandent House for sale</span>
 			</div>
-			<div class="col-2 list-view">
-				<span class="col-3"><img src="images/bed.png"></span><p class="col-9 list-icons">Bedrooms</p>
-				<span class="col-3"><img src="images/bathtub.png"></span><p class="col-9 list-icons">Bathrooms</p>
+			<div class="col-2 list-view view2">
+				<span class="col-3 list-icons"><img src="images/bed.png"></span><p class="col-9 list-icons-det">Bedrooms</p>
+				<span class="col-3 list-icons"><img src="images/bathtub.png"></span><p class="col-9 list-icons-det">Bathrooms</p>
 			</div>
-			<div class="col-1 list-view">
+			<div class="col-1 list-view view3">
 				<p class="list-view-count">2</p>
 				<p class="list-view-count">2</p>
 			</div>
@@ -171,11 +171,11 @@
 				<span>Panchkula</span>
 				<span>an earthy, organic-looking house with a villa/mansion-like aesthetic </span>
 			</div>
-			<div class="col-2 list-view">
-				<span class="col-3"><img src="images/bed.png"></span><p class="col-9 list-icons">Bedrooms</p>
-				<span class="col-3"><img src="images/bathtub.png"></span><p class="col-9 list-icons">Bathrooms</p>
+			<div class="col-2 list-view view2">
+				<span class="col-3 list-icons"><img src="images/bed.png"></span><p class="col-9 list-icons-det">Bedrooms</p>
+				<span class="col-3 list-icons"><img src="images/bathtub.png"></span><p class="col-9 list-icons-det">Bathrooms</p>
 			</div>
-			<div class="col-1 list-view">
+			<div class="col-1 list-view view3">
 				<p class="list-view-count">2</p>
 				<p class="list-view-count">2</p>
 			</div>
@@ -193,31 +193,11 @@
 				<span>Green Enclave, Zirakpur</span>
 				<span>3 Bedrooms 3Baths Independent House/Villa for Sale</span>
 				</div>
-				<div class="col-2 list-view">
-					<span class="col-3"><img src="images/bed.png"></span><p class="col-9 list-icons">Bedrooms</p>
-					<span class="col-3"><img src="images/bathtub.png"></span><p class="col-9 list-icons">Bathrooms</p>
+				<div class="col-2 list-view view2">
+					<span class="col-3 list-icons"><img src="images/bed.png"></span><p class="col-9 list-icons-det">Bedrooms</p>
+					<span class="col-3 list-icons"><img src="images/bathtub.png"></span><p class="col-9 list-icons-det">Bathrooms</p>
 				</div>
-				<div class="col-1 list-view">
-					<p class="list-view-count">2</p>
-					<p class="list-view-count">2</p>
-				</div>
-			</div>
-		</div>
-
-		<!-- <div class="col-12 listing list-views">
-			<div class="col-10 list list-det">
-				<div class="col-4 list-img3">
-				</div>
-				<div class="col-5 list-view">
-				<h3>Chandigarh</h3>
-				<span>Green Enclave, Zirakpur</span>
-				<span>3 Bedrooms 3Baths Independent House/Villa for Sale</span>
-				</div>
-				<div class="col-2 list-view">
-					<span class="col-3"><img src="images/bed.png"></span><p class="col-9 list-icons">Bedrooms</p>
-					<span class="col-3"><img src="images/bathtub.png"></span><p class="col-9 list-icons">Bathrooms</p>
-				</div>
-				<div class="col-1 list-view">
+				<div class="col-1 list-view view3">
 					<p class="list-view-count">2</p>
 					<p class="list-view-count">2</p>
 				</div>
@@ -233,17 +213,37 @@
 				<span>Green Enclave, Zirakpur</span>
 				<span>3 Bedrooms 3Baths Independent House/Villa for Sale</span>
 				</div>
-				<div class="col-2 list-view">
-					<span class="col-3"><img src="images/bed.png"></span><p class="col-9 list-icons">Bedrooms</p>
-					<span class="col-3"><img src="images/bathtub.png"></span><p class="col-9 list-icons">Bathrooms</p>
+				<div class="col-2 list-view view2">
+					<span class="col-3 list-icons"><img src="images/bed.png"></span><p class="col-9 list-icons-det">Bedrooms</p>
+					<span class="col-3 list-icons"><img src="images/bathtub.png"></span><p class="col-9 list-icons-det">Bathrooms</p>
 				</div>
-				<div class="col-1 list-view">
+				<div class="col-1 list-view view3">
 					<p class="list-view-count">2</p>
 					<p class="list-view-count">2</p>
 				</div>
 			</div>
 		</div>
- -->
+
+		<div class="col-12 listing list-views">
+			<div class="col-10 list list-det">
+				<div class="col-4 list-img3">
+				</div>
+				<div class="col-5 list-view">
+				<h3>Chandigarh</h3>
+				<span>Green Enclave, Zirakpur</span>
+				<span>3 Bedrooms 3Baths Independent House/Villa for Sale</span>
+				</div>
+				<div class="col-2 list-view view2">
+					<span class="col-3 list-icons"><img src="images/bed.png"></span><p class="col-9 list-icons-det">Bedrooms</p>
+					<span class="col-3 list-icons"><img src="images/bathtub.png"></span><p class="col-9 list-icons-det">Bathrooms</p>
+				</div>
+				<div class="col-1 list-view view3">
+					<p class="list-view-count">2</p>
+					<p class="list-view-count">2</p>
+				</div>
+			</div>
+		</div>
+
 	</div>
 	<!-- <div class=" col-12 more-list"><a href="javascript:void(0);"><p>see more...</p></a></div> -->
 

@@ -5,7 +5,12 @@ $(document).ready(function(){
 	});
     
 	$('.ui.dropdown').dropdown();
+    $('#drop').on("click",function(e){
+        e.preventDefault();
+        $('#sub-menu a').toggle();
+    });
 });
+
 
 $(window).scroll(function () {
     var topOfWindow = $(window).scrollTop(),
