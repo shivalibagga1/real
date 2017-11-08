@@ -412,6 +412,7 @@ video {
 		top:0;
 		left:0;*/
 		font-size: 21px;
+		clear: both;
 	}
 
 	.listing{
@@ -810,8 +811,29 @@ video {
 	/*width: 30%!important;*/
 	text-align: center;
 	position: relative;
-	box-shadow: 5px 5px 5px #7c8891;
+	/*box-shadow: 5px 5px 5px #7c8891;*/
 }
+
+.others:before, .others:after
+	{
+	  z-index: -1;
+	  position: absolute;
+	  content: "";
+	  bottom: 15px;
+	  left: 10px;
+	  width: 50%;
+	  top: 80%;
+	  max-width:300px;
+	  background: #777;
+	  box-shadow: 0 23px 10px #777;
+	  transform: rotate(-5deg);
+	}
+	.others:after
+		{
+		  transform: rotate(5deg);
+		  right: 10px;
+		  left: auto;
+		}
 
 .others h3{
 	position: absolute;
