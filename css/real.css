@@ -811,10 +811,10 @@ video {
 	/*width: 30%!important;*/
 	text-align: center;
 	position: relative;
-	/*box-shadow: 5px 5px 5px #7c8891;*/
+	box-shadow: 5px 5px 5px #7c8891;
 }
 
-.others:before, .others:after
+/*.others:before, .others:after
 	{
 	  z-index: -1;
 	  position: absolute;
@@ -833,7 +833,7 @@ video {
 		  transform: rotate(5deg);
 		  right: 10px;
 		  left: auto;
-		}
+		}*/
 
 .others h3{
 	position: absolute;
