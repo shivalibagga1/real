@@ -36,13 +36,13 @@
 			<div class="item" id="brand-container"><a href="javascript:void(0);"><img src="images/product1.png"></a> <span id="btn"><button class="collapse-menu"><i class="fa fa-bars" aria-hidden="true"></i>
 </button></span></div>
 			
-			<a class="item" id="navitem" data-tab="Home" href="javascript:void(0);">Home</a>
+			<!-- <a class="item" id="navitem" data-tab="Home" href="javascript:void(0);">Home</a> -->
 		  	<a class="item" id="navitem" data-tab="About Us" href="javascript:void(0);">About Us</a>
 		  	<!-- <a class="item" id="navitem" data-tab="Property" href="javascript:void(0);">Property</a> -->
 
-			  <div class="ui pointing dropdown link item" id="drop">
-			    <span class="text" id="prop-tab">Property</span>
-			    <i class="dropdown icon"></i>
+			  <div class="ui pointing dropdown link item" id="sub-nav">
+			    <span class="text" id="prop-tab">Property
+			    <i class="dropdown icon"></i></span>
 			    <div class="menu" id="sub-menu">
 			      <div class="header">Categories</div>
 			      <div class="item">
@@ -53,6 +53,48 @@
 			      <div class="item"><a class="item" data-tab="Kothi"  href="listing.html">commercial</a></div>
 			    </div>
 			  </div>
+  <!-- 
+			  <div class="ui left pointing dropdown link item" id="sub-nav1">
+			    <span class="text" id="prop-tab">Property
+			    <i class="dropdown icon"></i></span>
+			    <div class="menu" id="sub-menu">
+			      <div class="header">Categories</div>
+			      <div class="item"> -->
+			        <!-- <i class="dropdown icon"></i> -->
+			        <!-- <span class="text"><a class="item" data-tab="Kothi"  href="listing.html">Kothi</a></span>
+			      </div>
+			      <div class="item"><a class="item" data-tab="Kothi"  href="listing.html">Flats</a></div>
+			      <div class="item"><a class="item" data-tab="Kothi"  href="listing.html">commercial</a></div>
+			    </div>
+			  </div> -->
+
+		<div class="ui accordion" id="sub-nav1">
+		  <div class="title active">
+		    Property
+		     <i class="dropdown icon"></i>
+		  </div>
+		  <div class="content">
+		  	 <div class="menu" id="sub-menu">
+			      <div class="header">Categories</div>
+			      <div class="item">
+			        <!-- <i class="dropdown icon"></i> -->
+			        <span class="text"><a class="item" data-tab="Kothi"  href="listing.html">Kothi</a></span>
+			      </div>
+			      <div class="item"><a class="item" data-tab="Kothi"  href="listing.html">Flats</a></div>
+			      <div class="item"><a class="item" data-tab="Kothi"  href="listing.html">commercial</a></div>
+			    </div>
+		  </div>
+		</div>
+
+			  	<!-- <div class="ui pointing dropdown link item" id="sub-nav">
+				    <span class="text" id="prop-tab">Property
+			    	<i class="dropdown icon"></i></span>
+				    <div class="menu" id="sub-menu">
+				      <div class="item"><a class="item" data-tab="Kothi"  href="listing.html">Kothi</a></div>
+				      <div class="item"><a class="item" data-tab="Flats"  href="listing.html">Flats</a></div>
+				      <div class="item"><a class="item" data-tab="Commercial"  href="listing.html">Commmercial</a></div>
+				    </div>
+				  </div>-->
 
 		  	<a class="item" data-tab="Seller"  href="javascript:void(0);">Seller</a>
 		  	<a class="item" data-tab="Buyer"  href="javascript:void(0);">Buyer</a>
@@ -331,6 +373,12 @@
 		  <p>@Copyright Shivam Realtors</p>
 		</div>
 	</footer>
+
+	<script language='javascript'>
+             $(document).ready(function(){
+                $('.ui.accordion').accordion();
+             });
+</script>
 <script type="text/javascript" src="js/real.js"></script> 
 </body>
 </html>

@@ -97,15 +97,14 @@ video {
 		position: absolute;
 		top: 38px;
 		left: 10%;
+		/*height: 60px;*/
+		z-index: 10;
+		background: rgba(255, 255, 255, 0.8);
+		padding: 0%;
 	}
 
 	.menu a{
 		font-weight: 600;
-	}
-
-	#nav{
-		background: rgba(255, 255, 255, 0.8);
-		padding: 0%;
 	}
 
 	#nav a{
@@ -115,7 +114,7 @@ video {
 		width: 100%;
 		display: none;
 		background: #fff;
-		z-index: 10;
+		/*z-index: 10;*/
 	}
 
 	#nav a:hover,#nav a:active{
@@ -138,6 +137,10 @@ video {
 		background: none;
 	}
 
+	#nav.ui.menu .item:before{
+		background: none;
+	}
+
 	.collapse-menu{
 		float: right;
 		border: 1px solid #53afd6;
@@ -152,6 +155,28 @@ video {
 		background: #53afd6;
 	}
 
+	#sub-nav{
+		display: none;
+	}
+
+	#sub-nav:hover{
+		background: none;
+		color: #5bc0eb;
+	}
+
+	#sub-nav1{
+		display: none;
+		/*z-index: 10;*/
+		background: #fff;
+	}
+
+	#sub-nav1:hover{
+		background: #fff;
+	}
+
+	#prop-tab i.icon.dropdown:before {
+    content: "\f0da";
+}
 /*=======================================*/
 /*Nav buttons,backgrounds,Brand-image*/
 /*=======================================*/
@@ -394,7 +419,7 @@ video {
 	.listings{
 		/*float: left;*/
 		height: 1000px;
-		position: relative;
+		/*position: relative;*/
 		/*display: block;*/
 		color: #fff;
 		letter-spacing: 1.5px;
@@ -747,7 +772,7 @@ video {
 	position: relative;
 }
 
-.half{
+/*.half{
     animation-name: example;
 	animation-duration: 5s;
 	animation-iteration-count: infinite;
@@ -757,9 +782,9 @@ video {
 }
 
 @-webkit-keyframes example {
-    0%   {transform:rotateY(70deg); visibility: visible; transform-origin: -3%;}
-    100%  {transform:rotateY(0deg); visibility: visible;}
-}
+    0%   {transform:rotateY(70deg); visibility: enterIn; transform-origin: -3%;}
+    100%  {transform:rotateY(0deg); visibility: enterIn;}
+}*/
 
 .newspaper img{
 	width: 100%;
@@ -874,7 +899,7 @@ video {
 .hidden{
      opacity:0;
 }
-.visible{
+.enterIn{
      opacity:1;
      -webkit-animation: fadeIn 0.95s linear;
 	animation: fadeIn 0.95s linear;
@@ -1015,7 +1040,7 @@ footer .ui.menu .item:before{
 	color: #fff;
 }
 
-#footer-nav a:hover,#footer-nava:active,#footer-nav a:visited{
+#footer-nav a:hover,#footer-nav a:active,#footer-nav a:visited{
 		color: #5bc0eb;
 }
 
@@ -1193,6 +1218,19 @@ footer .ui.menu .item:before{
 
 	#nav a:hover{
 		background: none;
+	}
+
+	#sub-nav{
+		display: block;
+	}
+
+	#sub-nav1{
+		display: none!important;
+		background: none;
+	}
+
+	#prop-tab i.icon.dropdown:before {
+    	content: "\f0d7";
 	}
 
 	.con1{

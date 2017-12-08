@@ -2,12 +2,13 @@ $(document).ready(function(){
 	$('.collapse-menu').on("click",function(e){
         e.preventDefault();
 		$('#nav a:not(:first)').toggle();
+        $('#sub-nav1').toggle();
 	});
     
 	$('.ui.dropdown').dropdown();
-    $('#drop').on("click",function(e){
+    $("#prop-tab").on("click",function(e){
         e.preventDefault();
-        $('#sub-menu a').toggle();
+        $('#sub-nav1 a').toggle();
     });
 });
 
@@ -22,7 +23,7 @@ $(window).scroll(function () {
         if(imagePos <= bottomOfWindow && imagePos >= topOfWindow){
             // $(this).addClass('visible').delay();
             var $this = $(this);
-            setTimeout(function () { $this.addClass("visible"); }, index * 500);
+            setTimeout(function () { $this.addClass("enterIn"); }, index * 500);
         }else{
             // $(this).removeClass('visible');
         }
@@ -76,7 +77,7 @@ $(window).scroll(function () {
         if(imagePos <= bottomOfWindow && imagePos >= topOfWindow){
             // $(this).addClass('visible').delay();
             var $this = $(this);
-            setTimeout(function () { $this.addClass("visible"); }, index * 500);
+            setTimeout(function () { $this.addClass("enterIn"); }, index * 500);
         }else{
             // $(this).removeClass('visible');
         }
@@ -115,6 +116,8 @@ $(window).scroll(function () {
 //     pauseButton.innerHTML = "Paused";
 //   }
 // })
+
+
 
 
 
