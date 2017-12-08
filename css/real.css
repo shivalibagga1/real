@@ -174,9 +174,25 @@ video {
 		background: #fff;
 	}
 
+	#prop-tab1{
+		padding-left: 15px;
+	}
+
+	.header{
+		padding-left: 30px;
+	}
+
+	#sub-menu1 a{
+		padding: 0 15px 0 35px;
+	}
+/*
 	#prop-tab i.icon.dropdown:before {
-    content: "\f0da";
-}
+    content: "\f0d7";
+}*/
+
+ 	#prop-tab i.icon.dropdown:before{
+		content: "\f0d7";
+	}
 /*=======================================*/
 /*Nav buttons,backgrounds,Brand-image*/
 /*=======================================*/
@@ -1222,6 +1238,8 @@ footer .ui.menu .item:before{
 
 	#sub-nav{
 		display: block;
+		line-height: 1.7;
+		padding: 15px 5px 16px 15px;
 	}
 
 	#sub-nav1{
@@ -1231,6 +1249,14 @@ footer .ui.menu .item:before{
 
 	#prop-tab i.icon.dropdown:before {
     	content: "\f0d7";
+	}
+
+	#sub-menu{
+		margin-top: 0px;
+	}
+
+	#sub-menu a{
+		padding: 0 15px 0 0;
 	}
 
 	.con1{
