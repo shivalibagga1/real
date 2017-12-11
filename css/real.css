@@ -99,7 +99,7 @@ video {
 		left: 10%;
 		/*height: 60px;*/
 		z-index: 10;
-		background: rgba(255, 255, 255, 0.8);
+		background: rgba(255, 255, 255, 0.6);
 		padding: 0%;
 	}
 
@@ -966,7 +966,7 @@ footer h3{
 .social{
 	float:left;
 	text-align: center;
-	margin: 12% 0 12% 0;
+	margin: 10% 0 10% 0;
 }
 
 .social h3{
@@ -1029,6 +1029,7 @@ footer h3{
 	background: rgba(55, 115, 140, 0);
 	border: 1px solid rgba(255,255,255,0.1);
 	border-radius: 0;
+	display: block;
 }
 
 #footer-nav p{
@@ -1037,6 +1038,7 @@ footer h3{
 	padding: 1%;
 	letter-spacing: 1.5px;
 	font-size: 10px;
+	text-align: center;
 }
 
 /*#footer-nav{
@@ -1054,6 +1056,8 @@ footer .ui.menu .item:before{
 
 #footer-nav a{
 	color: #fff;
+	width: initial!important;
+	display: inline-block;
 }
 
 #footer-nav a:hover,#footer-nav a:active,#footer-nav a:visited{
@@ -1199,7 +1203,7 @@ footer .ui.menu .item:before{
 
     #nav1{
     	/*padding: 1.5%;*/
-    	height: 20%;
+    	height: 16%;
     }
 
     #nav1 a{
@@ -1468,6 +1472,11 @@ footer .ui.menu .item:before{
 
 	#footer-nav{
 		/*bottom: 0;*/
+		display: flex;
+	}
+
+	#footer-nav a{
+		display: inherit;
 	}
 
 }
